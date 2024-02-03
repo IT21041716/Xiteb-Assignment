@@ -179,7 +179,6 @@ const Home = () => {
       <MDBCarousel showIndicators controls={false} fade>
         <MDBCarouselItem
           itemId={1}
-          style={{ height: "80vh", position: "relative" }}
           className="carousal_item_sub"
         >
           <img src={slide1} className="carousal-img" alt="..." />
@@ -194,7 +193,6 @@ const Home = () => {
 
         <MDBCarouselItem
           itemId={2}
-          style={{ height: "80vh", position: "relative" }}
           className="carousal_item_sub"
         >
           <img src={slide2} className="carousal-img" alt="..." />
@@ -209,7 +207,6 @@ const Home = () => {
 
         <MDBCarouselItem
           itemId={3}
-          style={{ height: "80vh", position: "relative" }}
           className="carousal_item_sub"
         >
           <img src={slide3} className="carousal-img" alt="..." />
@@ -224,7 +221,6 @@ const Home = () => {
 
         <MDBCarouselItem
           itemId={4}
-          style={{ height: "80vh", position: "relative" }}
           className="carousal_item_sub"
         >
           <img src={slide4} className="carousal-img" alt="..." />

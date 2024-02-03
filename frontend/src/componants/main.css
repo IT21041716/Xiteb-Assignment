@@ -202,6 +202,10 @@ body {
   display: none;
 }
 /*home section css */
+.carousal_item_sub{
+  height: 80%;
+  position: relative;
+}
 
 .carousal-img {
   width: 100%;

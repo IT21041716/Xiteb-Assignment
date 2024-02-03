@@ -154,6 +154,10 @@
   }
 
   /*home page*/
+  .carousal_item_sub{
+    height: 60%;
+    position: relative;
+  }
   .carousel-caption {
     position: absolute;
     top: 60%;
@@ -162,6 +166,9 @@
     text-align: center;
     color: #fff;
     width: 80%;
+  }
+  .carousal-img {
+    height: 60vh;
   }
 
   .carousel-caption .search-room {
@@ -387,6 +394,23 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1251px) {
+  .carousal_item_sub{
+    height: 60%;
+    position: relative;
+  }
+  .carousal-img {
+    height: 60vh;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 80%;
+  }
+  
   .logo-container {
     display: flex;
     width: 25%;
@@ -426,7 +450,7 @@
     left: 50%;
     transform: translateX(-50%);
     min-height: 75px;
-    width: 70%;
+    width: 90%;
     background-color: #ffffff7a;
     z-index: 10;
     padding: 7px;
@@ -455,4 +479,43 @@
   .input-code {
     width: 80%
   }
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    padding: 20px;
+    height: 75%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 500;
+    color: #876a20;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    line-height: 35px;
+  }
+  .content h6 {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .discover {
+    width: 150px;
+    color: #fff;
+    background-color: #876a20;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  
+  
 }
