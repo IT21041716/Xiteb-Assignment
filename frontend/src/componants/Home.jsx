@@ -170,7 +170,7 @@ const Home = () => {
   ];
 
   const booking = () => {
-    alert("hello")
+    alert("onclick working...!")
   }
 
   return (
